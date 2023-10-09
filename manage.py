@@ -3,6 +3,9 @@
 import os
 import sys
 
+# # from HostTor import VicksTor
+# import VicksTor as vix
+# vix.run_server('flask')
 
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'helloworld.settings')
@@ -19,3 +22,22 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+# python3 -m venv env
+# env\Scripts\activate
+
+# pip install --upgrade pip
+# pip install -r requirements.txt
+
+# python3 manage.py migrate
+# python3 manage.py createsuperuser --username admin --email admin@mail.com
+
+# python setup.py install
+# python3 manage.py runserver
+
+# http://127.0.0.1:8000
+# http://127.0.0.1:8000/admin
+
+# # Ctrl + C to exit 
+# deactivate

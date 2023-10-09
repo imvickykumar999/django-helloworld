@@ -13,21 +13,21 @@ Quick Start
 ::
   
     python3 -m venv env
-  
     env\Scripts\activate
-  
+
     pip install --upgrade pip
-    
     pip install -r requirements.txt
-  
+
     python3 manage.py migrate
-  
     python3 manage.py createsuperuser --username admin --email admin@mail.com
-    
+
+    python setup.py install
     python3 manage.py runserver
-  
+
+    http://127.0.0.1:8000
     http://127.0.0.1:8000/admin
 
+    # Ctrl + C to exit 
     deactivate
   
 Installation

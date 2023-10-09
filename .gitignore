@@ -7,5 +7,6 @@
 *.pyo
 build/
 dist/
-helloworld.db
+*helloworld.db
 local_settings.py
+env/
