@@ -4,6 +4,32 @@ django-helloworld
 
 A Django '`Hello World <https://en.wikipedia.org/wiki/%22Hello,_World!%22_program>`_' program example.
 
+---------------------
+  
+===========
+Quick Start
+===========
+  
+::
+  
+    python3 -m venv env
+  
+    env\Scripts\activate
+  
+    pip install --upgrade pip
+    
+    pip install -r requirements.txt
+  
+    python3 manage.py migrate
+  
+    python3 manage.py createsuperuser --username admin --email admin@mail.com
+    
+    python3 manage.py runserver
+  
+    http://127.0.0.1:8000/admin
+
+    deactivate
+  
 Installation
 ============
 
