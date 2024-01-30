@@ -3,3 +3,4 @@ Django==2.2.3
 requests
 VicksTor
 stem
+setuptools

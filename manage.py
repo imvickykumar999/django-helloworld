@@ -33,7 +33,7 @@ if __name__ == '__main__':
 # python3 manage.py migrate
 # python3 manage.py createsuperuser --username admin --email admin@mail.com
 
-# python setup.py install
+# python3 setup.py install
 # python3 manage.py runserver
 
 # http://127.0.0.1:8000
